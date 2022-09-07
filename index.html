@@ -105,7 +105,7 @@
             <pre>
     API Endpoint Base
 
-        http://localhost:6600/api/v1
+        https://gocampaign.herokuapp.com/api/v1
                 </pre>
             <p>
                 Campaign API ini digunakan untuk adminstrasi data campaign. Dari mulai membuat campaign, funding campaign, transaksi funding, dll.
@@ -133,7 +133,7 @@
             <pre><code class="bash">
 # Contoh Request Register User :
 url
--- http://localhost:6600/api/v1/users
+-- https://gocampaign.herokuapp.com/api/v1/users
                 </code></pre>
             <p>
                 Untuk proses register user, silahkan menggunakan method <strong>POST</strong> dengan url berikut :<br>
@@ -229,11 +229,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Login User :
 url
--- http://localhost:6600/api/v1/sessions
+-- https://gocampaign.herokuapp.com/api/v1/sessions
                 </code></pre>
             <p>
                 Untuk proses login user, silahkan menggunakan method <strong>POST</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/sessions</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/sessions</code>
             </p>
             <br>
             <pre><code class="json">
@@ -309,11 +309,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Cek Available Email :
 url
--- http://localhost:6600/api/v1/email_checkers
+-- https://gocampaign.herokuapp.com/api/v1/email_checkers
                 </code></pre>
             <p>
                 Untuk mencari apakah email bisa digunakan untuk register atau tidak, silahkan menggunakan method <strong>GET</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/email_checkers</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/email_checkers</code>
             </p>
             <br>
             <pre><code class="json">
@@ -379,11 +379,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Fetch Data User :
 url
--- http://localhost:6600/api/v1/users/fetch
+-- https://gocampaign.herokuapp.com/api/v1/users/fetch
                 </code></pre>
             <p>
                 Untuk proses fetch semua data user, diperlukan header bearer token. Silahkan menggunakan method <strong>POST</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/users/fetch</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/users/fetch</code>
             </p>
             <br>
             <pre><code class="json">
@@ -449,11 +449,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Upload Image Avatar User :
 url
--- http://localhost:6600/api/v1/avatars
+-- https://gocampaign.herokuapp.com/api/v1/avatars
                 </code></pre>
             <p>
                 Untuk proses upload image avatar user, diperlukan header bearer token. Silahkan menggunakan method <strong>POST</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/avatars</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/avatars</code>
             </p>
             <br>
             <pre><code class="json">
@@ -527,7 +527,7 @@ url
                 </code></pre>
             <p>
                 Untuk membuat data campaign baru, silahkan menggunakan method <strong>POST</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/campaigns</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/campaigns</code>
             </p>
             <br>
             <pre><code class="json">
@@ -625,11 +625,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Fetch Data Campaign :
 url
--- http://localhost:6600/api/v1/campaigns/1
+-- https://gocampaign.herokuapp.com/api/v1/campaigns/1
                 </code></pre>
             <p>
                 Untuk mengupdate data campaign, silahkan menggunakan method <strong>PUT</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/campaigns/1</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/campaigns/1</code>
             </p>
             <br>
             <pre><code class="json">
@@ -727,11 +727,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Fetch Data Campaign :
 url
--- http://localhost:6600/api/v1/campaigns
+-- https://gocampaign.herokuapp.com/api/v1/campaigns
                 </code></pre>
             <p>
                 Untuk proses fetch semua data Campaign, diperlukan header bearer token. Silahkan menggunakan method <strong>GET</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/campaigns</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/campaigns</code>
             </p>
             <br>
             <pre><code class="json">
@@ -801,11 +801,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Fetch 1 Campaign :
 url
--- http://localhost:6600/api/v1/campaigns/1
+-- https://gocampaign.herokuapp.com/api/v1/campaigns/1
                 </code></pre>
             <p>
                 Untuk proses fetch 1 data Campaign, diperlukan header bearer token. Silahkan menggunakan method <strong>GET</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/campaigns/1</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/campaigns/1</code>
             </p>
             <br>
             <pre><code class="json">
@@ -884,11 +884,11 @@ Response Gagal :
             <pre><code class="bash">
 # Contoh Request Create Transaksi Funding Campaign :
 url
--- http://localhost:6600/api/v1/transactions
+-- https://gocampaign.herokuapp.com/api/v1/transactions
                 </code></pre>
             <p>
                 Untuk membuat transaksi baru funding campaign, silahkan menggunakan method <strong>POST</strong> dengan url berikut :<br>
-                <code class="higlighted break-word">http://localhost:6600/api/v1/transactions</code>
+                <code class="higlighted break-word">https://gocampaign.herokuapp.com/api/v1/transactions</code>
             </p>
             <br>
             <pre><code class="json">
